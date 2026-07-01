@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+}
+.Main{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color:cornsilk;
+}
+.heading{
+    color: brown;
+}
+.links ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.links ul li {
+    cursor: pointer;
+    font-size: 18px;
+}
