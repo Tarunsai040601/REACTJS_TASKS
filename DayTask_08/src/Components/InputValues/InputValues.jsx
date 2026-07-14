@@ -15,7 +15,7 @@ export class InputValues extends Component {
     this.setState({ data2: e.target.value });
   }
   handlerSubmit = () => {
-    this.setState({output:this.state.data1 + this.state.data2});
+    this.setState({output:this.state.data1 +" "+ this.state.data2});
   };
   render() {
     return (
