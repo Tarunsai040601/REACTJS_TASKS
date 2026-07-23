@@ -1,0 +1,47 @@
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.FormStyle {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f5f5f5;
+}
+
+.FormStyle label {
+  font-weight: bold;
+}
+
+.FormStyle input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+.FormStyle input:focus {
+  border-color: blue;
+}
+
+.SubmitBtn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.SubmitBtn:hover {
+  background-color: darkgreen;
+}
